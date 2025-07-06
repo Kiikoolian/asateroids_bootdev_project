@@ -83,7 +83,7 @@ def main():
             obj.draw(screen)
         
         # Draw the score to the lifes
-        hp_text = font.render(f'Score: {hp}', True, (255, 255, 255))
+        hp_text = font.render(f'LIFES: {hp}', True, (255, 255, 255))
         screen.blit(hp_text, (10, 10))
 
         pygame.display.flip()
